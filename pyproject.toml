@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sensei"
+version = "0.1.0"
+description = "Sensei is an open-source Python toolbox for simulating integrated navigation systems and performing analysis to identify, model, and estimate major sources of error in sensor data."
+authors = ["Karan Chawla <karangc2@illinois.edu>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+matplotlib = "^3.5.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
