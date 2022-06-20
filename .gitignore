@@ -1,2 +1,5 @@
 # Package manager files
 poetry.lock
+
+# Pycache
+__pycache__
